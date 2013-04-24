@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Middleman Template: ZURB Foundation #
 
 Middleman-Foundation is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org) and [SCSS](http://sass-lang.com/) version of the [ZURB Foundation](http://foundation.zurb.com/) using [HAML](http://haml-lang.com/). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [RVM](https://rvm.io/) is recommended.
@@ -35,3 +36,9 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+=======
+tony-s3meraro-com
+=================
+
+personal site
+>>>>>>> 13593beef10481932a39ec3abb49b5c835ff4c8f
