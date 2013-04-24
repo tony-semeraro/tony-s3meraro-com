@@ -1,0 +1,27 @@
+// Settings file to override Foundation variables
+
+// You can find the variables for each component at the bottom of their
+// doc page. We tried to name them to where they'd make sense just by reading them.
+// Go to http://foundation.zurb.com/docs/ to find what you need.
+
+// custom colors 
+
+$site-topbar-bg: #73AFC0;
+$site-topbar-active-color: #36616D;
+
+
+
+//nav _top_bar
+$topbar-bg: $site-topbar-bg;
+
+// color of menu text
+$topbar-link-color: white;
+// color of menu button background 
+$topbar-dropdown-bg: $site-topbar-active-color;
+
+$orbit-container-bg: rgba(0,0,0,0);
+
+// want smaller text
+// $base-font-size: 90%;
+// $em-base: 14px;
+

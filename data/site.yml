@@ -1,0 +1,52 @@
+site_title: "Hey, Tony!"
+
+default_background: "/images/vt05-ascii-dim.png"
+status_headline: "Status: accepting freelance assignments"
+
+
+contact_link: '/contact/'
+
+nav_icon: '/images/vt05-icon.png'
+top_nav_bar:
+ - 
+  - HOME
+  - '/'
+ -
+  - 'BLOG'
+  - '/blog/'
+ -
+  - RECENT
+  - '/recent/'
+ -
+  - ABOUT
+  - '/about/'
+
+
+
+
+# =========BEGIN NOTES============
+#
+# << Frontmatter for each page >>
+# << sample >>
+
+#---
+# title: Welcome to Luxury Apartment Living
+
+#   (optional path to pic icon in top nav bar)
+#   (will default to icon set in /data/site.yml)
+# nav_icon: /some/image/path
+
+# has_slider: true
+# slider_images:
+# - /images/apartment/hero_slider_interior_1.jpeg
+# - /images/apartment/hero_slider_interior_2.jpeg
+#
+#   (optional path to page specific sidebar slideshow)
+#   (will default to /data/site.yml if not set)
+# sidebar_images:
+# -
+#
+#   (optional path to page specific background)
+#   (will default to /data/site.yml if not set)
+# background: "/images/apartment/huge-monument.jpg"
+# ---

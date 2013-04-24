@@ -1,0 +1,56 @@
+
+
+
+.nop {
+	display: none;
+}
+
+body {
+	font-size: 100%;
+	
+}
+
+#objective {p {
+	padding: 0 10px;
+	max-width: 50em;
+}}
+
+
+
+.resume {
+	a, p, li, dt, dd , span{	font-size: 0.8em;	}	
+	h4 {font-size: 1em;}
+	h6 {font-size: 0.8em;}
+	margin: 0 3em 0 3em;
+	font-family: 'Cousine', sans-serif;	
+	li {padding: 0 0 0 1em;}
+	hr{	border: 3px solid black; }
+	h4 { padding: 0 0 0 5em ;}	
+	dt { 
+		font-style: italic; 
+		font-weight: bold; 
+		text-align: right; 
+		padding: 0 2em 0 0; 
+		float: left; 		
+	}
+
+    
+}
+
+.resume-sub-header {
+ div, span, p {display: inline;}	
+}
+
+
+
+.resume-title-name {	
+	font-size: 1.7em; 
+	font-weight: bold; 
+	
+}
+
+.resume-timeline {
+	color: gray;
+	float: right;	
+	padding: 0 1em 0 0;
+}

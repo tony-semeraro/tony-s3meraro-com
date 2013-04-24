@@ -1,0 +1,163 @@
+// Normalize / Reset
+@import "normalize";
+
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import
+//   "foundation/components/grid",
+//   "foundation/components/visibility",
+//   "foundation/components/block-grid",
+//   "foundation/components/type",
+//   "foundation/components/buttons",
+//   "foundation/components/forms",
+//   "foundation/components/custom-forms",
+//   "foundation/components/button-groups",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/split-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/section",
+//   "foundation/components/top-bar",
+//   "foundation/components/orbit",
+//   "foundation/components/reveal",
+//   "foundation/components/joyride",
+//   "foundation/components/clearing",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/inline-lists",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/side-nav",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/magellan",
+//   "foundation/components/tables",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/dropdown";
+
+
+
+
+//==============
+
+$site-bg-color: #73AFC0;
+$site-center-color: #6A7BC8;
+
+$site-topbar-bg: #36616D;
+$site-topbar-active-color: #114E5F;
+
+$site-text-color: black;
+
+
+$site-footer-bg-color: black;
+$site-footer-text-color: black;
+
+
+
+
+
+
+//================
+
+
+
+.slider-sidebar,
+.main-sidebar, 
+.article-text {
+	color: $site-text-color;
+	background-color: rgba($site-center-color, 0.6);
+}
+
+#wrap { 
+	h1, h2, h3, h4, h5, h6, p, a , li{ color: $site-text-color; }
+	padding: 1em;
+}
+
+.row > #main-sidebar {
+	h1, h2, h3, h4, h5, h6, p, a , li { color: $site-text-color; }
+	
+	background-color: rgba($site-bg-color, 0.5);
+}
+
+footer {
+	a, p, h6, h5, li {color: $site-footer-text-color;}
+	background-color: rgba($site-footer-bg-color, 0.3);
+	//padding-top: 1.5em;
+	padding: 1em;
+}
+body {background-color: rgba($site-bg-color, 0.2);
+	}
+
+
+
+.extra-huge-headline  {
+	 font-size: 8em;
+	 line-height: 50%;
+	 text-align: center;
+}
+
+.status-headline  {
+	
+
+	text-decoration: underline;
+	 font-size: 0.8em;	
+	 color: black;
+}
+
+
+// /resume/ page
+#resume-wrap {	background-color: rgba($site-bg-color, 0.2);}
+#objective {p {padding: 0 20px;}}
+
+.resume {
+	font-family: 'Cousine', sans-serif;
+	li {padding: 0 5em 0 0;}
+
+	hr{	border: 3px solid #999; }
+	h4 {font-size: 1.3em;}
+	h6 {letter-spacing: 2px;
+	margin: 0px;}
+	.ul { margin: 0 0 32px 17px; }
+	dt { 
+		font-style: italic; 
+		font-weight: bold; font-size: 1.3em; 
+		text-align: right; padding: 0 26px 0 0; 
+		 float: right; height: 100px; 
+		border-right: 3px solid #999;  
+	}
+
+    .dd {  float: right; }
+}
+.resume-sub-header {
+	padding: 0 0 0 1em;
+}
+
+.resume-title-text {
+	line-height: 1;
+	
+}
+
+.resume-title-name {
+	padding: 10px 0 0 10px; 
+	font-size: 42px; 
+	font-weight: bold; 
+	letter-spacing: 1px;
+}
+
+.resume-timeline {
+	color: gray;
+	float: right;
+	
+	padding: 0 1em 0 0;
+}

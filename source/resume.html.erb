@@ -1,0 +1,149 @@
+---
+title: Resume | Tony Semeraro - Web Developer
+cv_name: Tony Semeraro
+cv_occupation: Apprentice Web Developer
+cv_email: tonys3meraro@gmail.com
+cv_location_city: San Diego
+cv_location_state: California
+
+
+
+cv_photo: "../../images/me-with-chips.jpg"
+cv_objective: "I'm new to the world of programming and I'm excited to get started making things! As someone who comes from a previous career in skilled crafts, I look forward to getting my hands dirty with code and to working alongside and learning from masters in this craft. "
+---
+<!-- TODO add vars into code below -->
+
+
+<div id="resume-wrap" class = "resume">
+    <div class ="row" >     
+        <div class ="large-7 columns " >
+            <div class = "row">
+                <div class =" small-12 columns" >
+                    <div class = "row">
+                        <div class ="small-8 columns" itemscope itemtype="http://schema.org/Person">
+                            <div class = "resume-title-name" itemprop="name"><strong><%= data.page.cv_name%></strong></div>
+                        </div>
+                        <div class ="small-4 columns"></div>
+                    </div>
+                    <hr />
+
+                    
+                    <div class ="row resume-sub-header">
+                        <div class ="small-4 columns resume-title-text" >
+                            <span itemprop="jobtitle">
+                                <p><strong><%= data.page.cv_occupation %></strong></p>
+                            </span>
+                        </div>
+
+
+                        <div class ="small-8 columns resume-title-text" >
+                            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <p><span itemprop="addressLocality">Location: <%= data.page.cv_location_city%></span>, <span itemprop="addressRegion"><%= data.page.cv_location_state%></span><br class= "nop">
+                                <span itemprop="email">Email: <%= data.page.cv_email%></span></p>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div> 
+            </div>
+        </div>
+        <div class= "large-5 small-12 columns nop">
+            <img src="images/<%= data.page.cv_photo%>" alt="Photo of <%= data.page.cv_name%>" id="pic" />
+        </div>
+    </div>
+
+
+
+    <div class = "row" id="objective">
+        <div class = "large-7 columns resume-title-text" >
+            <p><%= data.page.cv_objective%>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- begin skills list -->
+    <div class = "row"> 
+
+
+        <dl> 
+            <div class="row">
+                <div class="large-3 columns">           
+                    <dt>Skills</dt>
+                </div>
+                <div class="small-9 columns">
+                    <dd>
+                        <h4>Full-Stack Development</h4>
+                        <ul>
+                            <li> HTML5, CSS and Javascript hand coding standards-compliant implementations</li>
+                            <li> Proficient in less, sass, erb, rvm, haml and yaml 
+                                <li> MVC and MV.VC web applications in Ruby on Rails or Sinatra </li>
+                                <li> Front-End UX/UI prototyping and creation with ZURB Foundation and Twitter Bootstrap frameworks</li>                    
+                                <li> SQL coding on Oracle, MySQL and PostgreSQL </li>
+                                <li> Version control with git</li>
+
+                                <li> Configure, deploy and program LAMP based solutions anywhere from raw metal servers to PaaS virtualized cloud computing</li>
+                                <li> Exposure to BDD, TDD and unit testing </li>
+                            </ul>
+
+                        </dd>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="large-3 columns">           
+                    <dt>Experience</dt>
+                </div>
+                <div class="small-9 columns">
+                    <dd>
+
+                        <h4>okhereisthesituation.com <span class = "resume-timeline">Technical Lead - 2012 - </span></h4>
+                        <ul>
+                            <li>Sitewide WordPress template redesign</li>
+                            <li>Updates, patches and performance tuning</li>                         
+                        </ul> 
+
+                        <h4>kubbrd.com [current wip] <span class = "resume-timeline">Founder - 2013 -</span></h4>
+                        <ul>
+                            <li>Recipe presenting and sharing across blogs and social media</li>
+                            <li>RoR API and static html generation for basic clients</li>
+                            <li>Backbone.js front end for rich clients and mobile</li>
+                        </ul> 
+
+                        <h4>midcenturymoderndeals.com [current wip] <span class = "resume-timeline">Co-Founder - 2013 -</span></h4>
+
+                        <ul>
+                            <li>Ruby on Rails 3.2 based full-stack deals aggregation project</li>
+                        </ul> 
+                    </dd>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="large-3 columns">           
+                    <dt>Education</dt>
+                </div>
+                <div class="small-9 columns">
+                    <dd>
+
+
+
+
+                        <h4>Valencia College - Orlando, Florida</h4>
+                        <p><strong>Major:</strong> Computer Science<br />
+
+                        </dd>
+                    </div>
+                </div>
+            </div>
+
+        </dl>
+
+
+
+    </div>
+
+
