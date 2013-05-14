@@ -114,9 +114,16 @@ body {background-color: rgba($site-bg-color, 0.2);
 	 font-size: 0.8em;	
 	 color: black;
 }
+// ---elsewhere---
 
+.narrow-story {
+	
 
-// /resume/ page
+	max-width: 25em;
+	a {font-weight: bold;}
+}
+
+// /resume page
 #resume-wrap {	background-color: rgba($site-bg-color, 0.2);}
 #objective {p {padding: 0 20px;}}
 
