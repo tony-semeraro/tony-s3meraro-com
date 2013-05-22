@@ -44,8 +44,17 @@
 <body class= "antialiased">
  <%= partial "layouts/nav" %>
  <div class = "row" id="wrap">
+
   <div class = "row">
-    <div class = "nop status-headline small-5 large-offset-4 columns"> <%= data.site.status_headline %>  </div>
+    <div class = "nop status-headline small-5 large-offset-4 columns"> 
+      
+      <a href = "/contact/"><%= data.site.status_headline %></a> 
+
+      
+          
+    
+         
+    </div>
     <!-- yield -->
     <div class="">          
       <%= yield  %>    

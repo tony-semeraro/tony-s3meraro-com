@@ -62,6 +62,7 @@ $site-text-color: black;
 
 $site-footer-bg-color: black;
 $site-footer-text-color: black;
+$site-link-color: #4A7474;
 
 
 
@@ -71,16 +72,15 @@ $site-footer-text-color: black;
 //================
 
 
-
-.slider-sidebar,
-.main-sidebar, 
+ 
 .article-text {
 	color: $site-text-color;
 	background-color: rgba($site-center-color, 0.6);
 }
 
 #wrap { 
-	h1, h2, h3, h4, h5, h6, p, a , li{ color: $site-text-color; }
+	h1, h2, h3, h4, h5, h6, p , li{ color: $site-text-color; }
+	a {color: $site-link-color; }
 	padding: 1em;
 }
 
@@ -106,24 +106,29 @@ body {background-color: rgba($site-bg-color, 0.2);
 	 line-height: 50%;
 	 text-align: center;
 }
+// alert headline
 
+// reset menu  bottom margin
+.top-bar {
+	margin-bottom: 0px;
+}
 .status-headline  {
+	margin-bottom: 20px;
+
 	
 
 	text-decoration: underline;
 	 font-size: 0.8em;	
 	 color: black;
 }
-// ---elsewhere---
 
-.narrow-story {
-	
-
-	max-width: 25em;
-	a {font-weight: bold;}
+// front index page
+.front-center {
+	font-size: 120%;
 }
 
-// /resume page
+
+//  resume page
 #resume-wrap {	background-color: rgba($site-bg-color, 0.2);}
 #objective {p {padding: 0 20px;}}
 
