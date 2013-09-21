@@ -139,6 +139,7 @@ body {background-color: rgba($site-bg-color, 0.2);
 
 .resume {
 	font-family: 'Cousine', sans-serif;
+
 	li {padding: 0 5em 0 0;}
 
 	hr{	border: 3px solid #999; }
@@ -155,6 +156,10 @@ body {background-color: rgba($site-bg-color, 0.2);
 	}
 
     .dd {  float: right; }
+}
+
+.res-highlights {
+		h4 > a {color: black!important;}
 }
 .resume-sub-header {
 	padding: 0 0 0 1em;
