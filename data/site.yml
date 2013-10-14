@@ -12,14 +12,26 @@ top_nav_bar:
   - HOME
   - '/'
  -
-  - 'BLOG'
-  - ''
- -
-  - RECENT
-  - ''
+  - 'RESUME'
+  - '/resume/'
  -
   - ABOUT
   - '/about/'
+
+
+# top_nav_bar:
+#  - 
+#   - HOME
+#   - '/'
+#  -
+#   - 'BLOG'
+#   - ''
+#  -
+#   - RECENT
+#   - ''
+#  -
+#   - ABOUT
+#   - '/about/'
 
 
 
