@@ -15,8 +15,8 @@ top_nav_bar:
   - 'RESUME'
   - '/resume/'
  -
-  - ABOUT
-  - '/about/'
+  - CONTACT
+  - '/contact/'
 
 
 # top_nav_bar:

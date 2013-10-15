@@ -6,25 +6,20 @@ cv_email: tonys3meraro@gmail.com
 cv_location_city: San Diego
 cv_location_state: California
 
-
-
-cv_photo: "../../images/me-with-chips.jpg"
-cv_objective: "I build software and solutions on the modern web technology stack. I'm happy to use opensource software whenever appropriate and strive to craft with the best tools available, wherever their origin."
+cv_objective: "I build software and solutions on the modern web stack. From the database on the back-end to the CSS on the front, I'm here to build cool stuff. I strive to balance traditional craftsmanship, rapid deployment and quality engineering. "
 ---
 <!-- TODO add vars into code below -->
 
 
 <div id="resume-wrap" class = "resume">
     <div class ="row" >     
-        <div class ="large-7 columns " >
-            <div class = "row">
-                <div class =" small-10 columns" >
+        <div class ="large-12 columns " >
                     <div class = "row">
-                        <div class ="small-8 columns" itemscope itemtype="http://schema.org/Person">
+                        <div class ="small-12 columns" itemscope itemtype="http://schema.org/Person">
                             <div class = "resume-title-name" itemprop="name"><strong><%= data.page.cv_name%></strong></div>
                         </div>
-                        <div class ="small-4 columns"></div>
                     </div>
+
                     <hr />
 
                     
@@ -34,28 +29,20 @@ cv_objective: "I build software and solutions on the modern web technology stack
                                 <p><strong><%= data.page.cv_occupation %></strong></p>
                             </span>
                         </div>
-
-
-                        <div class ="small-8 columns resume-title-text" >
+                        <div class ="small-5 offset-3 columns resume-title-text" >
                             <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                 <p><span itemprop="addressLocality">Location: <%= data.page.cv_location_city%></span>, <span itemprop="addressRegion"><%= data.page.cv_location_state%></span><br class= "nop">
                                 <span itemprop="email">Email: <%= data.page.cv_email%></span></p>
                             </div>
                         </div>
                     </div> 
-
-                </div> 
-            </div>
-        </div>
-        <div class= "large-5 small-12 columns nop">
-            <!-- <img src="images/<%= data.page.cv_photo%>" alt="Photo of <%= data.page.cv_name%>" id="pic" /> -->
         </div>
     </div>
 
 
 
     <div class = "row" id="objective">
-        <div class = "large-7 columns resume-title-text" >
+        <div class = "large-8 columns large-centered resume-title-text" >
             <p><%= data.page.cv_objective%>
             </p>
         </div>
@@ -99,32 +86,29 @@ cv_objective: "I build software and solutions on the modern web technology stack
                     <dd>
 
                         <h4><a href='http://www.simplelogicstudio.com/
-'> simple logic studio</a> <span class = "resume-timeline">Mobile Web Developer - July 2013 - </span></h4>
+'target='blank'> simple logic studio</a> <span class = "resume-timeline">Mobile Web Developer - July 2013 - </span></h4>
                         <ul>
                             <li>MVC Javascript coding</li>
                             <li>Mobile App development in Phonegap</li>
                             <li>HTML5, jQuery, Backbone, PHP and mySql</li>                         
                         </ul> 
 
-                        <h4><a href='http://www.kubbrd.com'>kubbrd.com<a/> [current wip] <span class = "resume-timeline">Founder - 2013 -</span></h4>
+                        <h4><a href='http://www.kubbrd.com' target='blank'>kubbrd.com</a> [current wip] <span class = "resume-timeline">Founder - 2013 -</span></h4>
                         <ul>
-                            <li>Recipe presenting and sharing across blogs and social media</li>
-                            <li>RoR API and static html generation for basic clients</li>
-                            <li>Backbone.js front end for rich clients and mobile</li>
+                            <li>Recipe sharing application for blogs and social media</li>
+                            <li>Ruby on Rails based server backend servicing API, mobile and desktop clients</li>
+                            <li>Currently integrates Twitter platform with content publishing tools</li>
                         </ul> 
 
-                        <h4>freelance software developer<span class = "resume-timeline"> 2012 - </span></h4>
-                        <br/>
+                        
 
                         <h4>okhereisthesituation.com <span class = "resume-timeline">Technical Lead - 2012 - </span></h4>
                         <ul>
                             <li>Site-wide WordPress template redesign</li>
                             <li>Updates, patches and performance tuning</li>                         
                         </ul> 
+                        <br>
 
-                        
-
-                        
                     </dd>
                 </div>
             </div>
@@ -140,9 +124,10 @@ cv_objective: "I build software and solutions on the modern web technology stack
 
 
 
-
+                        <h4>University of Connecticut - Storrs, Connecticut</h4>
+                        <p><strong>Major:</strong> Mechanical Engineering<br />
                         <h4>Valencia College - Orlando, Florida</h4>
-                        <p><strong>Major:</strong> Computer Science<br />
+                        <p><strong>Major:</strong> Computer Science, A.S.<br />
 
                         </dd>
                     </div>

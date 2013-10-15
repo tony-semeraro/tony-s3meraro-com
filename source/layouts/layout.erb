@@ -46,21 +46,17 @@
  <div class = "row" id="wrap">
 
   <div class = "row">
-    <div class = "nop status-headline small-5 large-offset-4 columns"> 
-      
-      <a href = "/contact/"><%= data.site.status_headline %></a> 
-
-      
-          
-    
-         
+    <div class = "nop status-headline small-5 large-offset-4 columns">       
+      <a href = "/contact/"><%= data.site.status_headline %></a>          
     </div>
+  </div> 
+
     <!-- yield -->
-    <div class="">          
+    <div>          
       <%= yield  %>    
     </div>  
+<!-- end wrap -->
 </div> 
-</div>
 
 <!-- Footer -->
 <%= partial "layouts/footer" %>
