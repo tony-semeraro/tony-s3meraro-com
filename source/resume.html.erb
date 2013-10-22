@@ -6,7 +6,7 @@ cv_email: tonys3meraro@gmail.com
 cv_location_city: San Diego
 cv_location_state: California
 
-cv_objective: "I build software and solutions on the modern web stack. From the database on the back-end to the CSS on the front, I'm here to build cool stuff. I strive to balance traditional craftsmanship, rapid deployment and quality engineering. "
+cv_objective: "I build software and solutions on the modern web stack. I strive to balance traditional craftsmanship, rapid deployment and quality engineering. "
 ---
 <!-- TODO add vars into code below -->
 
@@ -14,41 +14,33 @@ cv_objective: "I build software and solutions on the modern web stack. From the 
 <div id="resume-wrap" class = "resume row">
     <div class ="row" >     
         <div class ="large-12 columns " >
-                    <div class = "row">
-                        <div class ="small-12 columns" itemscope itemtype="http://schema.org/Person">
-                            <div class = "resume-title-name" itemprop="name"><strong><%= data.page.cv_name%></strong></div>
-                        </div>
+            <div class = "row">
+                <div class ="small-12 columns" itemscope itemtype="http://schema.org/Person">
+                    <div class = "resume-title-name" itemprop="name"><strong><%= data.page.cv_name%></strong></div>
+                </div>
+            </div>
+            <hr />                    
+            <div class ="row resume-sub-header">
+                <div class ="small-4 columns resume-title-text" >
+                    <span itemprop="jobtitle">
+                        <p><strong><%= data.page.cv_occupation %></strong></p>
+                    </span>
+                </div>
+                <div class ="small-5 offset-3 columns resume-title-text" >
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <p><span itemprop="addressLocality">Location: <%= data.page.cv_location_city%></span>, <span itemprop="addressRegion"><%= data.page.cv_location_state%></span><br class= "nop">
+                        <span itemprop="email">Email: <%= data.page.cv_email%></span></p>
                     </div>
-
-                    <hr />
-
-                    
-                    <div class ="row resume-sub-header">
-                        <div class ="small-4 columns resume-title-text" >
-                            <span itemprop="jobtitle">
-                                <p><strong><%= data.page.cv_occupation %></strong></p>
-                            </span>
-                        </div>
-                        <div class ="small-5 offset-3 columns resume-title-text" >
-                            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                <p><span itemprop="addressLocality">Location: <%= data.page.cv_location_city%></span>, <span itemprop="addressRegion"><%= data.page.cv_location_state%></span><br class= "nop">
-                                <span itemprop="email">Email: <%= data.page.cv_email%></span></p>
-                            </div>
-                        </div>
-                    </div> 
+                </div>
+            </div> 
         </div>
     </div>
-
-
-
     <div class = "row" id="objective">
         <div class = "large-8 columns large-centered resume-title-text" >
             <p><%= data.page.cv_objective%>
             </p>
         </div>
     </div>
-
-
     <!-- begin skills list -->
     <div class = "row"> 
         <dl> 
@@ -62,36 +54,43 @@ cv_objective: "I build software and solutions on the modern web stack. From the 
                         <ul>
                             <li> OOP programming and design in Ruby, Javascript and PHP languages</li>
                             <li> MVC and MV.VC web applications in BackboneJS, Ruby on Rails, Sinatra or CodeIgniter frameworks </li>
-                            <li> Exposure to BDD, TDD and unit testing </li>
                             <li> HTML5, CSS3 hand coding</li>
-                            <li> Styling with complied layouts in less, sass, erb, rvm and haml 
-                            <li> Front-End UX/UI prototyping and creation with Twitter Bootstrap and ZURB Foundation  frameworks</li>                    
-                            <li> SQL coding on MySQL PostgreSQL, and Oracle</li>
+                            <li> Styling with complied layouts in less, sass, erb, rvm and haml </li>                        
+                            <li> SQL coding on MySQL, PostgreSQL, and Oracle</li>
                             <li> Version control with git</li>
-                            <li> Configure, deploy and program LAMP based solutions ranging from raw metal servers to PaaS virtualized cloud computing</li>                            
+                            <li> Exposure to BDD, TDD and unit testing </li>
+                            <li> Configure, deploy and program LAMP based solutions ranging from raw-metal servers to PaaS virtualized cloud nodes</li>                            
                             </ul>
                         </dd>
                     </div>
                 </div>
             </div>
-
             <div class="row res-highlights">
                 <div class="large-3 columns">           
                     <dt>Experience</dt>
                 </div>
                 <div class="small-9 columns">
                     <dd>
-
                         <h4>
                             <a href='http://www.simplelogicstudio.com/' target='blank'> simple logic studio</a>
                             <span class = "resume-timeline">Mobile Web Developer - July 2013 - </span>
                         </h4>
                         <ul>
-                            <li>HTML5, jQuery, Backbone, PHP and mySql</li>  
-                            <li>MVC Javascript coding</li>
-                            <li>Mobile App development in Phonegap</li>                                                 
-                        </ul> 
-
+                            <li>Designed and built hybrid SPA HTML5 mobile application from wireframe mockup
+                                <ul>
+                                    <li>Implemented in custom MVVM Backbone.JS with UI Built on Bootstrap and compiled with Phonegap</li>
+                                </ul>
+                            </li>
+                            <li>Retrofitted API interface into legacy PHP / mySql system allowing client to vector into new mobile platform without breaking working codebase
+                            </li>
+                            <li>Refactored and performance-tuned codebase of a mobile application to meet time critical specifications
+                                <ul>
+                                    <li>Trimmed code paths and execution time by a factor of two</li>
+                                    <li>Constructed lightweight MVC structure and persistence layer in Vanilla.JS</li>
+                                </ul>
+                            </li>                            
+                            <li>HTML5, jQuery, Backbone, PHP and mySql</li>                                              
+                        </ul>
                         <h4><a href='http://www.kubbrd.com' target='blank'>kubbrd.com</a> [current wip] 
                             <span class = "resume-timeline">Founder - 2013 -</span>
                         </h4>
@@ -100,21 +99,21 @@ cv_objective: "I build software and solutions on the modern web stack. From the 
                             <li>Ruby on Rails based server backend servicing API, mobile and desktop clients</li>
                             <li>Currently integrates Twitter platform with content publishing tools</li>
                         </ul>
-
-                        <h4>okhereisthesituation.com 
-                            <span class = "resume-timeline">Technical Lead - 2012 - </span>
+                        <h4>freelance programmer 
+                            <span class = "resume-timeline">2012 - </span>
                         </h4>
                         <ul>
-                            <li>Site-wide WordPress template redesign</li>
-                            <li>Updates, patches and performance tuning</li>                         
-                        </ul> 
-
+                            <li>Constructed data collection framework leveraging Nokogiri, Ruby and Heroku to extract and filter unstructured data from various web sources</li>
+                            <li>CMS coding, styling and maintenance for various clients in WordPress
+                            <span class='nop'>
+                                {some linked examples: <a href="http://shareitfitness.com/">here</a> and <a href="http://okhereisthesituation.com/">here</a>.}
+                            </span>                      
+                            </li> 
+                        </ul>                        
                         <br>
-
                     </dd>
                 </div>
             </div>
-
             <div class="row">
                 <div class="large-3 columns">           
                     <dt>Education</dt>
@@ -122,17 +121,14 @@ cv_objective: "I build software and solutions on the modern web stack. From the 
                 <div class="small-9 columns">
                     <dd>
                         <h4>University of Connecticut - Storrs, Connecticut</h4>
-                        <p><strong>Major:</strong> Mechanical Engineering<br />
+                        <p><strong>Studied:</strong> Mechanical Engineering<br />
                         <h4>Valencia College - Orlando, Florida</h4>
                         <p><strong>Major:</strong> Computer Science, A.S.<br />
                     </dd>
                 </div>
             </div>
-
-            </div>
-
-        </dl>
-
-    </div>
+        </div>
+    </dl>
+</div>
 
 
