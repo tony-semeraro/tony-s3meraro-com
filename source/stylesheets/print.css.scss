@@ -18,19 +18,28 @@ body {
 
 
 .resume {
-	a, p, li, dt, dd , span{	font-size: 0.8em;	}	
-	h4 {font-size: 1em;}
+	a {
+		text-decoration: none;
+		color: black!important;
+	}
+	 p, li, dt, dd , span{	
+		font-size: 0.8em;		
+		}	
+
 	h6 {font-size: 0.8em;}
 	margin: 0 3em 0 3em;
 	font-family: 'Cousine', sans-serif;	
 	li {padding: 0 0 0 1em;}
 	hr{	border: 3px solid black; }
-	h4 { padding: 0 0 0 5em ;}	
+	h4 { 
+		padding: 0 0 0 5em ;
+		font-size: 1em;
+	}	
 	dt { 
-		font-style: italic; 
+		// font-style: italic; 
 		font-weight: bold; 
 		text-align: right; 
-		padding: 0 2em 0 0; 
+		// padding: 0 2em 0 0; 
 		float: left; 		
 	}
 
