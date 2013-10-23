@@ -96,13 +96,15 @@ body {background-color: rgba($site-bg-color, 0.2);
 .resume {
 	font-family: 'Cousine', sans-serif;
 
-	li {padding: 0 5em 0 0;}
+	li {
+		padding: 0 5em 0 0;
+		margin: 0 1em 0 1em 0;}
 
 	hr{	border: 3px solid #999; }
 	h4 {font-size: 1.3em;}
 	h6 {letter-spacing: 2px;
 	margin: 0px;}
-	ul { margin: 0 0 32px 17px; }
+	dd > ul { margin: 0 0 32px 17px; }
 	
 	dt { 
 		// font-style: italic; 
@@ -114,6 +116,7 @@ body {background-color: rgba($site-bg-color, 0.2);
 	ul > ul >li {
 		margin-left: 2em;
 	}
+
 
     .dd {  float: right; }
 }
