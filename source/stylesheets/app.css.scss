@@ -78,9 +78,6 @@ body {background-color: rgba($site-bg-color, 0.2);
 }
 .status-headline  {
 	margin-bottom: 20px;
-
-	
-
 	text-decoration: underline;
 	 font-size: 0.8em;	
 	 color: black;
@@ -105,9 +102,10 @@ body {background-color: rgba($site-bg-color, 0.2);
 	h4 {font-size: 1.3em;}
 	h6 {letter-spacing: 2px;
 	margin: 0px;}
-	.ul { margin: 0 0 32px 17px; }
+	ul { margin: 0 0 32px 17px; }
+	
 	dt { 
-		font-style: italic; 
+		// font-style: italic; 
 		font-weight: bold; font-size: 1.3em; 
 		text-align: right; padding: 0 26px 0 0; 
 		 float: right; height: 100px; 
@@ -130,6 +128,10 @@ body {background-color: rgba($site-bg-color, 0.2);
 .resume-title-text {
 	line-height: 1;
 	
+}
+.profession > p {
+	font-size: 1.7em; 
+	text-align: right; padding: 0 26px 0 0; 
 }
 
 .resume-title-name {
