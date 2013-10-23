@@ -2,6 +2,7 @@
 
 # Foundation Javascript
 #= require "foundation/foundation"
+#= require "foundation/foundation.topbar"
 
 #= require "vendor/jquery.backstretch.min.js"
 
