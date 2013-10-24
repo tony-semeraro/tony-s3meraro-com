@@ -6,7 +6,8 @@
 }
 
 body {
-	font-size: 100%;
+	font-size: 90%;
+	font-family: Verdana, Geneva, sans-serif;
 	
 }
 
@@ -27,18 +28,18 @@ ul > li > ul {
 		color: black!important;
 	}
 	 p, li, dd , span{	
-		font-size: 12px;
+		font-size: 11px;
 		
 		}	
 	h4 {
-		font-size: 16px;
-		padding: 0 0 0 5em ;}
+		font-size: 14px;
+		padding: 0 0 0 4em ;}
 	h6 {font-size: 0.8em;}
-	margin: 0 3em 0 3em;
-	font-family: 'Cousine', sans-serif;	
+	margin: 0 2.5em 0 2.5em;
+	// font-family: 'Cousine', sans-serif;	
 	li {padding: 0 0 0 0em;}
 	hr{	border: 3px solid black; }
-	dd > h4:nth-child(1) {padding-top: 2em;}	
+	dd > h4:nth-child(1) {padding-top: 1.8em;}	
 	dt { 
 		// font-size: 0.9em;
 		font-weight: bold; 
@@ -58,7 +59,7 @@ ul > li > ul {
 	float: right;	
 }
 .res-schools {
-	p {padding: 0em 0em 0em 6.5em;}
+	p {padding: 0em 0em 0em 5.5em;}
 }
 #objective {
 	padding-top: 1em;
@@ -66,7 +67,7 @@ ul > li > ul {
 
 
 .resume-title-name {	
-	font-size: 1.7em; 
+	font-size: 1.6em; 
 	font-weight: bold; 
 	
 }
