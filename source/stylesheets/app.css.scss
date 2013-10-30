@@ -8,6 +8,9 @@
 @import "foundation";
 
 
+ 
+
+
 //==============
 
 $site-bg-color: #73AFC0;
@@ -92,15 +95,44 @@ body {background-color: rgba($site-bg-color, 0.2);
 //  resume page
 #resume-wrap {	background-color: rgba($site-bg-color, 0.2);}
 #objective {p {padding: 0 20px;}}
+@media only screen and (min-width: 768px) {
+	.resume {	
+		dt { 
+			text-align: right; padding: 0 26px 0 0; 
+			 float: right; 
+			 height: 100px; 
+			border-right: 3px solid #999;  
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.resume {		
+		dt { 
+			text-align: right; padding: 0 26px 0 40px;
+			margin: 1em 1em 1em 10em 0; 
+			 float: inherit; 
+
+			border-bottom: 3px solid #999;  
+		}
+	}
+}
 
 .resume {
 	font-family: 'Cousine', sans-serif;
 
-	li {
-		padding: 0 5em 0 0;
+	dd>ul>li {
+		padding: 0 2em 0 0;
 		margin: 0 1em 0 1em 0;}
 
 	hr{	border: 3px solid #999; }
+	hr.thin-rule {
+		border: 0px;
+		border: none;
+		line-height: 0px;
+		margin: 0 0 0 0;
+		border: 0 0 0 0;		
+	}
 	h4 {font-size: 1.3em;}
 	h6 {letter-spacing: 2px;
 	margin: 0px;}
@@ -109,17 +141,17 @@ body {background-color: rgba($site-bg-color, 0.2);
 	dt { 
 		// font-style: italic; 
 		font-weight: bold; font-size: 1.3em; 
-		text-align: right; padding: 0 26px 0 0; 
-		 float: right; height: 100px; 
-		border-right: 3px solid #999;  
+	// 	text-align: right; padding: 0 26px 0 0; 
+	// 	 float: right; 
+	// 	 height: 100px; 
+	// 	border-right: 3px solid #999;  
 	}
-	ul > ul >li {
-		margin-left: 2em;
-	}
+	
 
 
-    .dd {  float: right; }
+    // .dd {  float: right; }
 }
+
 
 .res-highlights {
 		h4 > a {color: black!important;}
@@ -133,13 +165,13 @@ body {background-color: rgba($site-bg-color, 0.2);
 	
 }
 .profession > p {
-	font-size: 1.4em; 
-	text-align: right; padding: 0 26px 0 0; 
+	font-size: 1.4em;  
+	margin-bottom: 0.4em;
 }
 
 .resume-title-name {
 	padding: 10px 0 0 10px; 
-	font-size: 42px; 
+	font-size: 2.8em; 
 	font-weight: bold; 
 	letter-spacing: 1px;
 }
