@@ -78,6 +78,9 @@ body {background-color: rgba($site-bg-color, 0.2);
 // reset menu  bottom margin
 .top-bar {
 	margin-bottom: 0px;
+    li.active a {
+      background: $site-topbar-active-color;
+    }
 }
 .status-headline  {
 	margin-bottom: 20px;
