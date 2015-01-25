@@ -1,10 +1,5 @@
-
-
-
-
 <div class="fixed nop">
-	<nav class="top-bar"> 
-
+	<nav class="top-bar">
 		<ul class ="title-area">
 			<li class = "name">
 				<%= link_to image_tag(current_page.data.nav_icon || data.site.nav_icon), '/' %> 
@@ -15,16 +10,12 @@
 		</ul>
 		<section class="top-bar-section">
 			<ul class="right">
-
-			<% data.site.top_nav_bar.each do |title, url| %>
-
-				<li class = "<%= "active" if (url == current_page.url)%>" >
-					<%= link_to title, url %>
-				</li>
-				<% end %>
-				
+                <% data.site.top_nav_bar.each do |title, url| %>
+                <li class = "<%= "active" if (url == current_page.url)%>" >
+                    <%= link_to title, url %>
+                </li>
+                <% end %>
 			</ul>
-		</section> 
-
+		</section>
 	</nav>
 </div> 

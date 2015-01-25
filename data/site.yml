@@ -1,8 +1,8 @@
 site_title: "Hey, Tony!"
 
 default_background: "/images/vt05-ascii-dim.png"
-status_headline: "Status: accepting freelance assignments"
-
+#status_headline: "Status: accepting freelance assignments"
+status_headline: ""
 
 contact_link: '/contact/'
 
