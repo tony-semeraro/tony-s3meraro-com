@@ -3,185 +3,146 @@
 
 // Global Foundation Settings
 @import "settings";
-
-// Comment out this import if you are customizing you imports below
 @import "foundation";
 
-
- 
-
-
-//==============
-
+//================
 $site-bg-color: #73AFC0;
 $site-center-color: #6A7BC8;
-
 $site-topbar-bg: #36616D;
 $site-topbar-active-color: #114E5F;
-
 $site-text-color: black;
-
-
 $site-footer-bg-color: black;
 $site-footer-text-color: black;
 $site-link-color: #4A7474;
-
-
-
-
-
-
 //================
 
-
- 
 .article-text {
-	color: $site-text-color;
-	background-color: rgba($site-center-color, 0.6);
+  color: $site-text-color;
+  background-color: rgba($site-center-color, 0.6);
 }
 
-#wrap { 
-	h1, h2, h3, h4, h5, h6, p , li{ color: $site-text-color; }
-	a {color: $site-link-color; }
-	padding: 1em;
+#wrap {
+  h1, h2, h3, h4, h5, h6, p , li{ color: $site-text-color; }
+  a {color: $site-link-color; }
+  padding: 1em;
 }
 
 .row > #main-sidebar {
-	h1, h2, h3, h4, h5, h6, p, a , li { color: $site-text-color; }
-	
-	background-color: rgba($site-bg-color, 0.5);
+  h1, h2, h3, h4, h5, h6, p, a , li { color: $site-text-color; }
+  background-color: rgba($site-bg-color, 0.5);
 }
 
 footer {
-	a, p, h6, h5, li {color: $site-footer-text-color;}
-	background-color: rgba($site-footer-bg-color, 0.3);
-	//padding-top: 1.5em;
-	padding: 1em;
+  a, p, h6, h5, li {color: $site-footer-text-color;}
+  background-color: rgba($site-footer-bg-color, 0.3);
+  padding: 1em;
 }
 body {background-color: rgba($site-bg-color, 0.2);
-	}
+}
 
 .push-bullets {
-	margin-left: 1em;
-
+  margin-left: 1em;
 }
-
-
 
 .extra-huge-headline  {
-	 font-size: 6em;
-	 // line-height: 50%;
-	 text-align: center;
+  font-size: 6em;
+  text-align: center;
 }
+
 // alert headline
-
-// reset menu  bottom margin
 .top-bar {
-	margin-bottom: 0px;
-    li.active a {
-      background: $site-topbar-active-color;
-    }
+  margin-bottom: 0px;
+  li.active a {
+    background: $site-topbar-active-color;
+  }
 }
+
 .status-headline  {
-	margin-bottom: 20px;
-	text-decoration: underline;
-	 font-size: 0.8em;	
-	 color: black;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 0.8em;
+  color: black;
 }
 
-// front index page
 .front-center {
-	font-size: 120%;
+  font-size: 120%;
 }
-
 
 //  resume page
 #resume-wrap {	background-color: rgba($site-bg-color, 0.2);}
 #objective {p {padding: 0 20px;}}
 @media only screen and (min-width: 768px) {
-	.resume {	
-		dt { 
-			text-align: right; padding: 0 26px 0 0; 
-			 float: right; 
-			 height: 100px; 
-			border-right: 3px solid #999;  
-		}
-	}
+  .resume {
+    dt {
+      text-align: right; padding: 0 26px 0 0;
+      float: right;
+      height: 100px;
+      border-right: 3px solid #999;
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
-	.resume {		
-		dt { 
-			text-align: right; padding: 0 26px 0 40px;
-			margin: 1em 1em 1em 10em 0; 
-			 float: inherit; 
+  .resume {
+    dt {
+      text-align: right; padding: 0 26px 0 40px;
+      margin: 1em 1em 1em 10em 0;
+      float: inherit;
 
-			border-bottom: 3px solid #999;  
-		}
-	}
+      border-bottom: 3px solid #999;
+    }
+  }
 }
 
 .resume {
-	font-family: 'Cousine', sans-serif;
+  font-family: 'Cousine', sans-serif;
 
-	dd>ul>li {
-		padding: 0 2em 0 0;
-		margin: 0 1em 0 1em 0;}
+  dd>ul>li {
+    padding: 0 2em 0 0;
+    margin: 0 1em 0 1em 0;}
 
-	hr{	border: 3px solid #999; }
-	hr.thin-rule {
-		border: 0px;
-		border: none;
-		line-height: 0px;
-		margin: 0 0 0 0;
-		border: 0 0 0 0;		
-	}
-	h4 {font-size: 1.3em;}
-	h6 {letter-spacing: 2px;
-	margin: 0px;}
-	dd > ul { margin: 0 0 32px 17px; }
-	
-	dt { 
-		// font-style: italic; 
-		font-weight: bold; font-size: 1.3em; 
-	// 	text-align: right; padding: 0 26px 0 0; 
-	// 	 float: right; 
-	// 	 height: 100px; 
-	// 	border-right: 3px solid #999;  
-	}
-	
+  hr{	border: 3px solid #999; }
+  hr.thin-rule {
+    border: 0px;
+    border: none;
+    line-height: 0px;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+  }
+  h4 {font-size: 1.3em;}
+  h6 {letter-spacing: 2px;
+    margin: 0px;}
+  dd > ul { margin: 0 0 32px 17px; }
 
-
-    // .dd {  float: right; }
+  dt {
+    font-weight: bold; font-size: 1.3em;
+  }
 }
-
 
 .res-highlights {
-		h4 > a {color: black!important;}
+  h4 > a {color: black!important;}
 }
 .resume-sub-header {
-	padding: 0 0 0 1em;
+  padding: 0 0 0 1em;
 }
 
 .resume-title-text {
-	line-height: 1;
-	
+  line-height: 1;
 }
 .profession > p {
-	font-size: 1.4em;  
-	margin-bottom: 0.4em;
+  font-size: 1.4em;
+  margin-bottom: 0.4em;
 }
 
 .resume-title-name {
-	padding: 10px 0 0 10px; 
-	font-size: 2.8em; 
-	font-weight: bold; 
-	letter-spacing: 1px;
+  padding: 10px 0 0 10px;
+  font-size: 2.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .resume-timeline {
-	color: gray;
-	float: right;
-	
-	padding: 0 1em 0 0;
+  color: gray;
+  float: right;
+  padding: 0 1em 0 0;
 }

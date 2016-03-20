@@ -1,90 +1,78 @@
-
-
-
 .nop {
-	display: none;
+  display: none;
 }
 
 body {
-	font-size: 90%;
-	font-family: Verdana, Geneva, sans-serif;
-	
+  padding-top: 0;
+  font-size: 90%;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 #objective {p {
-	padding: 0 10px;
-	max-width: 50em;
+  padding: 0 10px;
+  max-width: 50em;
 }}
 
 ul > li > ul {
-			padding-left: 1.3em;
+  padding-left: 1.3em;
 }
 
-
-
 .resume {
-	a {
-		text-decoration: none;
-		color: black!important;
-	}
-	 p, li, dd , span{	
-		font-size: 11px;
-		
-		}	
-	h4 {
-		font-size: 14px;
-		padding: 0 0 0 4em;
-		margin: 0 0 0 0;}
-	h6 {font-size: 0.8em;}
-	margin: 0 2.5em 0 2.5em;
-	// font-family: 'Cousine', sans-serif;	
-	li {padding: 0 0 0 0em;}
-	hr{	border: 3px solid black; }
-	hr.thin-rule {
-		border: 0px;
-		border: none;
-		line-height: 0px;
-		margin: 0 0 0 0;
-		border: 0 0 0 0;		
-	}
-	dd > h4:nth-child(1) {padding-top: 1.8em;}	
-	dt { 
-		// font-size: 0.9em;
-		font-weight: bold; 
-		text-align: right; 
-		padding: 0 1em 1em 0; 
-		float: left; 		
-	}
-
-    
+  a {
+    text-decoration: none;
+    color: black!important;
+  }
+  p, li, dd , span{
+    font-size: 11px;
+  }
+  h4 {
+    font-size: 14px;
+    padding: 0 0 0 4em;
+    margin: 0 0 0 0;}
+  h6 {font-size: 0.8em;}
+  margin: 0 2.5em 0 2.5em;
+  // font-family: 'Cousine', sans-serif;
+  li {padding: 0 0 0 0em;}
+  hr{	border: 3px solid black; }
+  hr.thin-rule {
+    border: 0px;
+    border: none;
+    line-height: 0px;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+  }
+  dd > h4:nth-child(1) {padding-top: 1.8em;}
+  dt {
+    // font-size: 0.9em;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 1em 1em 0;
+    float: left;
+  }
 }
 
 .resume-sub-header {
- div, span, p {display: inline;}	
+  div, span, p {display: inline;}
 }
 .title-location {
-	padding: 0em 0em 0em 0em;
-	float: right;	
+  padding: 0em 0em 0em 0em;
+  float: right;
 }
 .res-schools {
-	p {padding: 0em 0em 0em 5.5em;}
+  p {padding: 0em 0em 0em 5.5em;}
 }
 #objective {
-	// margin-top: 3px;
-	padding-top: 2.5em;
-	p {padding: 0 20px;}
+  padding-top: 2.5em;
+  p {padding: 0 20px;}
 }
 
-
-
-.resume-title-name {	
-	font-size: 1.6em; 
-	font-weight: bold; 
-	
+.resume-title-name {
+  font-size: 1.6em;
+  font-weight: bold;
 }
 
 .resume-timeline {
-	color: gray;
-	float: right;	
-	padding: 0 1em 0 0;
+  color: gray;
+  float: right;
+  padding: 0 1em 0 0;
 }
