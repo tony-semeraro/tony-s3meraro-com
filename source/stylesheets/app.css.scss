@@ -110,8 +110,17 @@ body {background-color: rgba($site-bg-color, 0.2);
     border: 0 0 0 0;
   }
   h4 {font-size: 1.3em;}
-  h6 {letter-spacing: 2px;
-    margin: 0px;}
+  h4.title-time { margin-bottom: 0.1em; }
+  h6 {
+    letter-spacing: 2px;
+    margin: 0px;
+  }
+  h6.location {
+    font-size: 0.7em;
+    float: right;
+    padding-right: 2em;
+    padding-bottom: 0.7em;
+  }
   dd > ul { margin: 0 0 32px 17px; }
 
   dt {
@@ -120,7 +129,12 @@ body {background-color: rgba($site-bg-color, 0.2);
 }
 
 .res-highlights {
-  h4 > a {color: black!important;}
+  h4 > a {
+    color: black!important;
+  }
+  ul {
+    line-height: 1.4;
+  }
 }
 .resume-sub-header {
   padding: 0 0 0 1em;
