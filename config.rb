@@ -9,6 +9,7 @@ require "zurb-foundation"
 # compass_config do |config|
 #   config.output_style = :compact
 # end
+sprockets.append_path File.join "#{root}", "bower_components"
 
 ###
 # Page options, layouts, aliases and proxies
