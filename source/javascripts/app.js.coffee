@@ -5,6 +5,7 @@
 #= require "foundation/foundation.topbar"
 
 #= require "vendor/jquery.backstretch.min.js"
+#= require "vendor/custom.modernizr.js"
 
 (($, window, undefined_) ->
   "use strict"
@@ -12,12 +13,6 @@
   Modernizr = window.Modernizr
   $(document).ready ->
     $(document).foundation()
-
-  # UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
-  # $('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'both'});
-  # $('.block-grid.three-up>li:nth-child(3n+1)').css({clear: 'both'});
-  # $('.block-grid.four-up>li:nth-child(4n+1)').css({clear: 'both'});
-  # $('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'both'});
 
   # Hide address bar on mobile devices (except if #hash present, so we don't mess up deep linking).
   if Modernizr.touch and not window.location.hash
