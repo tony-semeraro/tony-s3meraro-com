@@ -4,12 +4,14 @@
 # Ignore the build directory
 /build
 
+/bower_components
+
 # Ignore Sass' cache
 /.sass-cache
 
 .rvmrc
 .DS_Store
-.rvmrc
+.idea
 =======
 *.rbc
 *.sassc
