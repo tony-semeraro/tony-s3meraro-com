@@ -28,35 +28,24 @@
           <%= yield_content :styles %>
       </style>
   <% end %>
-  <!-- IE backporting -->
-  <!--[if lt IE 9]>
-  <%= javascript_include_tag "html5" %>
-  <![endif]-->
   <%= yield_content :head %>
 </head>
 
 <body class= "antialiased">
 <%= partial "layouts/nav" %>
 <div id="wrap">
-  <!--<div class = "row">-->
-    <!--<div class = "nop status-headline small-5 large-offset-4 columns">-->
-      <!--<a href = "/contact/"><%= data.site.status_headline %></a>-->
-    <!--</div>-->
-  <!--</div>-->
-  <div>
-    <%= yield  %>
-  </div>
-</div> <!-- end wrap -->
+  <%= yield  %>
+</div>
 
-<!-- Footer -->
 <%= partial "layouts/footer" %>
 
-<!-- Javascript -->
 <%= javascript_include_tag "app" %>
 <%= yield_content :javascripts %>
 <script type="text/javascript">
-    $.backstretch( "<%= current_page.data.background || data.site.default_background %>");
-    $('.backstretch').addClass('nop');
+    $(function() {
+        $.backstretch( "<%= current_page.data.background || data.site.default_background %>");
+        $('.backstretch').addClass('nop');
+    });
 </script>
 </body>
 </html>
